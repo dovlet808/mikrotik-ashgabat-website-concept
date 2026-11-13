@@ -1,0 +1,52 @@
+# Dependencies and build output
+/node_modules
+/vendor
+/public/build
+/public/hot
+/public/storage
+/public/css/filament
+/public/js/filament
+/public/fonts/filament
+/public/fonts-manifest.dev.json
+/dist
+
+# Environment and secrets
+.env
+.env.backup
+.env.production
+/auth.json
+/storage/*.key
+
+# Uploaded media (kept: the .htaccess that blocks script execution)
+/public/uploads/*
+!/public/uploads/.htaccess
+
+# Local working material that is not part of the repository
+/.run
+/source
+/media
+/client-presentation
+/visual-review
+/visual-screenshots
+/bugs
+/docs/internal
+
+# Tooling caches and editor files
+*.log
+.DS_Store
+Thumbs.db
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/storage/pail
+/.idea
+/.nova
+/.vscode
+/.zed
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+
+# Python
+__pycache__/
+*.pyc

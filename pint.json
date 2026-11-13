@@ -1,0 +1,4 @@
+{
+    "preset": "laravel",
+    "exclude": ["dist", "visual-review", "client-presentation"]
+}

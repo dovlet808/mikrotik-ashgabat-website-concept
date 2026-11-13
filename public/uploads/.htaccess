@@ -1,0 +1,9 @@
+# Uploaded media only: never execute scripts from this directory.
+<FilesMatch "\.(php\d?|phtml|phar|pl|py|cgi|sh|asp|aspx|jsp|html?|svg)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+<IfModule mod_negotiation.c>
+    Options -Indexes
+</IfModule>
